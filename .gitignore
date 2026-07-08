@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.astro/
+coverage/
+test-results/
+playwright-report/
+.wrangler/
+.playwright-mcp/
+*.log
+.DS_Store
+
+# Copied verbatim from the installed pdfjs-dist by scripts/copy-pdfjs-assets.mjs
+# (postinstall) — a build artifact, not source. See that script's header comment.
+public/pdf-to-image/pdfjs/

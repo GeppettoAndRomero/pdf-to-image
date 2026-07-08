@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://localhost:4321/pdf-to-image/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/dai/Documents/cloudflare/runlocally/tools/pdf-to-image/.lighthouseci/localhost-_pdf_to_image_-2026_07_08_11_07_47.report.html",
+    "jsonPath": "/Users/dai/Documents/cloudflare/runlocally/tools/pdf-to-image/.lighthouseci/localhost-_pdf_to_image_-2026_07_08_11_07_47.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 0.98,
+      "best-practices": 1,
+      "seo": 1
+    }
+  }
+]
