@@ -361,7 +361,6 @@ export function ConversionManager({ locale = 'en' }: ConversionManagerProps) {
         <div style="display: flex; justify-content: flex-end;">
           <button
             onClick={() => setIsSettingsOpen(true)}
-            aria-label={t.openSettingsAria}
             style="background: none; border: none; font-size: var(--fs-2); cursor: pointer; padding: var(--space-2); border-radius: var(--radius-sm); transition: all var(--dur-mid) var(--ease); color: var(--color-primary); font-weight: 500;"
           >
             {t.settingsButton}

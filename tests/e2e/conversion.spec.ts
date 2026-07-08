@@ -125,7 +125,7 @@ test.describe('PDF to image', () => {
     await page.getByRole('button', { name: 'Page 2' }).click();
 
     // Switch to JPEG and 300 DPI via the settings modal.
-    await page.getByRole('button', { name: 'Open settings' }).click();
+    await page.getByRole('button', { name: 'Settings', exact: true }).click();
     await page.locator('#output-format').selectOption('jpeg');
     await page.locator('#dpi-select').selectOption('300');
     await page.getByRole('button', { name: 'Close' }).click();
