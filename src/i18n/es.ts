@@ -92,4 +92,9 @@ export const es: ToolContent = {
     colophon: 'Creado y mantenido por Geppetto. Parte del código está escrito con ayuda de IA; toda revisión y decisión final es del mantenedor.',
     securityText: 'Seguridad',
   },
+
+  related: {
+    h2: 'Herramientas relacionadas',
+    blogLinkText: 'Leer las notas técnicas',
+  },
 };
